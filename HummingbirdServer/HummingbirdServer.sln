@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HummingbirdWebApi", "HummingbirdWebApi\HummingbirdWebApi.csproj", "{A1AEC9B2-F6A0-44BA-BA01-44B7DB1F1C58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hummingbird.Core.WebAPI", "Hummingbird.Core.WebAPI\Hummingbird.Core.WebAPI.csproj", "{D5526900-C808-455F-8EA1-6A45CAD91CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hummingbird.Core.Model", "Hummingbird.Core.Model\Hummingbird.Core.Model.csproj", "{F03C55FF-6BDD-4CE2-904C-DFF3FC08A899}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A1AEC9B2-F6A0-44BA-BA01-44B7DB1F1C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A1AEC9B2-F6A0-44BA-BA01-44B7DB1F1C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A1AEC9B2-F6A0-44BA-BA01-44B7DB1F1C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A1AEC9B2-F6A0-44BA-BA01-44B7DB1F1C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5526900-C808-455F-8EA1-6A45CAD91CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5526900-C808-455F-8EA1-6A45CAD91CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5526900-C808-455F-8EA1-6A45CAD91CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5526900-C808-455F-8EA1-6A45CAD91CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F03C55FF-6BDD-4CE2-904C-DFF3FC08A899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F03C55FF-6BDD-4CE2-904C-DFF3FC08A899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F03C55FF-6BDD-4CE2-904C-DFF3FC08A899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F03C55FF-6BDD-4CE2-904C-DFF3FC08A899}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

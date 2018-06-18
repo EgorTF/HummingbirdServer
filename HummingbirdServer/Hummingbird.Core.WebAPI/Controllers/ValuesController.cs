@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace HummingbirdWebApi.Controllers
+namespace Hummingbird.Core.WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
